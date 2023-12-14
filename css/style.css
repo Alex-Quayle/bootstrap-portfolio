@@ -1,0 +1,16 @@
+body {
+    background-color: #04476F;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.container-fluid {
+    margin: 50px 50px 50px 50px;
+}
+
+.nav-link:hover {
+    color: #5FC4E1;
+}
