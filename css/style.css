@@ -32,7 +32,7 @@ hr.rounded {
     border-radius: 5px;
   }
 
-h1 {
+h1, h3 {
     color: var(--text-colour);
 }
 
@@ -50,4 +50,19 @@ color: var(--text-colour);
     width: 100%;
     min-height: 100%;
     object-fit: cover;
+}
+
+li {
+    list-style-type: square;
+}
+
+/* resizes the footer social links to a larger size */
+footer img {
+    width: 30px;
+    margin: 20px;
+  }
+
+.social {
+    width: 100px;
+    height: auto;
 }
