@@ -20,8 +20,17 @@ body {
 }
 
 #hero {
-    background-color: ;
+    background-color: #3A3A3A;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+
 }
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
 
 h1 {
     color: var(--text-colour);
