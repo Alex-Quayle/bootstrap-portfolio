@@ -8,15 +8,15 @@ body {
 
 .nav-link {
     color: var(--text-colour);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #5FC4E1;
 }
 
 .container-fluid {
     margin: 50px 50px 50px 50px;
-}
-
-.nav-link:hover {
-    color: #5FC4E1;
 }
 
 #hero {
@@ -27,3 +27,18 @@ h1 {
     color: var(--text-colour);
 }
 
+.btn {
+    padding: 10px 50px 10px 50px;
+}
+
+.card {
+background-color: #3A3A3A;
+border-color: none;
+color: var(--text-colour);
+}
+
+.project-image img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
