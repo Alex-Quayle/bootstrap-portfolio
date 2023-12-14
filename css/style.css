@@ -1,9 +1,13 @@
+:root {
+    --text-colour: white;
+}
+
 body {
     background-color: #04476F;
 }
 
 .nav-link {
-    color: white;
+    color: var(--text-colour);
     font-size: 1.2rem;
 }
 
@@ -14,3 +18,12 @@ body {
 .nav-link:hover {
     color: #5FC4E1;
 }
+
+#hero {
+    background-color: ;
+}
+
+h1 {
+    color: var(--text-colour);
+}
+
