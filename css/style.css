@@ -1,27 +1,28 @@
 :root {
     --text-colour: white;
+    --link-colour: #5FC4E1;
 }
+
+h1, h3, .nav-link {
+    color: var(--text-colour);
+}
+
 
 body {
     background-color: #04476F;
 }
 
 .nav-link {
-    color: var(--text-colour);
     font-size: 1.4rem;
 }
 
 .nav-link:hover, .nav-link:active {
-    color: #5FC4E1;
-}
-
-.container-fluid {
-    margin: 50px 50px 50px 50px;
+    color: var(--link-colour);
 }
 
 .btn:hover {
-    border-color: #5FC4E1;
-    background-color: #5FC4E1;
+    border-color: var(--link-colour);
+    background-color: var(--link-colour);
     box-shadow: 5px 5px 5px black;
 }
 
@@ -34,20 +35,17 @@ body {
 }
 
 hr.rounded {
-    border-top: 8px solid #5FC4E1;
+    border-top: 8px solid var(--link-colour);
     width: 60%;
     margin: 0 auto;
   }
-
-h1, h3 {
-    color: var(--text-colour);
-}
 
 .btn {
     padding: 10px 50px 10px 50px;
 }
 
 .card {
+border: 0;
 background-color: #3A3A3A;
 border-color: none;
 color: var(--text-colour);
