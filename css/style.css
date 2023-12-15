@@ -1,3 +1,5 @@
+/* allows use of the Roboto font from the Google Material Design language */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* declares the variables */
 :root {
@@ -5,7 +7,9 @@
     --link-colour: #5FC4E1;
 }
 
-h1, h3, .nav-link {
+h1, h3, h5, .nav-link, .card-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     color: var(--text-colour);
 }
 
@@ -15,7 +19,7 @@ body {
 }
 
 /* navbar styling */
-.nav-link {
+.nav-link, .card-header {
     font-size: 1.4rem;
 }
 
@@ -40,6 +44,8 @@ hr.rounded {
 
 /* work card styling */
 .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     padding: 10px 50px 10px 50px;
 }
 
